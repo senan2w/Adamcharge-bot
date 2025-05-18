@@ -2,7 +2,7 @@
 from telegram import Update, ReplyKeyboardMarkup, ReplyKeyboardRemove
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ConversationHandler, ContextTypes
 
-BOT_TOKEN = 'PUT_YOUR_BOT_TOKEN_HERE'
+BOT_TOKEN = '7010368994:AAHyerAeXdGl9VnzBnwnZ7t9JY2ogeIo1wg'
 ADMIN_USERNAME = '@Adamcharge'
 
 CHOOSING_SERVICE, GET_NAME, GET_ID, GET_AMOUNT, GET_PAYMENT_METHOD, GET_RECEIPT = range(6)
